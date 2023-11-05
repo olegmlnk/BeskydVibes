@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="tab_logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeskydVibes</title>
+    <link rel="stylesheet" href="BeskydVibes.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   <div class="sidebar">
+    <div class="top">
+        <div class="logo">
+            <i class="bx bxl-codepen"></i>
+            <span>BeskydVibes</span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+        <div class="user">
+            <img src="comp_logo.jpg" alt="me" class="user-img">
+            
+            <p class="logo_p">PPCOMPANY</p>
+        </div>
+    </div>
+    
+    <ul>
+        <li>
+            <a href="">
+                <i class="bx bxs-grid-alt"></i>
+                <span class="nav-item">Dashboard</span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="bx bx-cog"></i>
+                <span class="nav-item">Налаштування</span>
+            </a>
+           
+        </li>
+        <li>
+            <a href="">
+                <i class="bx bx-compass"></i>
+                <span class="nav-item">Мапи</span>
+            </a>
+            
+        </li>
+        <li>
+            <a href="">
+                <i class="bx bxs-contact"></i>
+                <span class="nav-item">Контакти</span>
+            </a>
+          
+        </li>
+        <li>
+            <a href="" class="about">
+                <i class="bx bx-info-circle"></i>
+                <span class="nav-item">Інформація</span>
+            </a>
+         
+        </li>
+    </ul>
+   </div>
+
+<div class="main-content">
+        <div class="background"> </div>
+ <!-- <header>
+    <div class="on_off"></div>
+    <button class="light"> <i class="bx bx-moon"></i></button>
+ </header> -->
+ 
+ <section class="home">
+  <div class="content">
+    <div class="icon">
+      <a href="https://web.telegram.org/"><i class="bx bxl-telegram" ></i></a>
+      <a href="https://github.com/"><i class="bx bxl-github" ></i></a>
+      <a href="https://www.youtube.com/"><i class="bx bxl-youtube" ></i></a>
+      <a href="https://www.instagram.com/"><i class="bx bxl-instagram" ></i></a>
+    </div>
+  </div>
+
+
+  <div class="main-co">
+    <h2>Beskyd Mountains <i class="bx bx-moon" ></i></h2>
+  
+  </div>
+  <div class="text_about">
+    <p> Бескиди - система гірських хребтів у північній смузі Карпат, у межах Чехії, Словаччини, Польщі та України.
+         Зовнішнє пасмо Карпат. 
+         Збудовані крейдовими та третинними вапняками, сланцями та пісковиками. Мають складчасту структуру, ускладнену лускоподібними насувами — скибами</p>
+        </div>
+        <div class="mapdiv">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10355.41212113706!2d20.133138569720053!3d49.54392589292967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f8664d528579%3A0x82828591f364c891!2z0JHQtdGB0LrQuNC00Lg!5e0!3m2!1suk!2sua!4v1699188893477!5m2!1suk!2sua" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+ </section>
+    </div>
+</div>
+</body>
+
+<script>
+    let btn = document.querySelector('#btn');
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active'); 
+    };
+
+    // let btn2 = document.querySelector('#btn2');
+    // let on_off = document.querySelector('.on_off');
+
+    // btn2.onclick = function() {
+    //     on_off.scrollIntoView.toggle('active');
+    // };
+</script>
+</html>
